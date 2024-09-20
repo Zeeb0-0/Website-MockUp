@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target - School Fundraising</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 800px;
+            margin: 0 auto;
+            border: 2px solid black;
+        }
+
+        /* Header Target Logo */
+        .header {
+            background-color: white;
+            padding: 10px;
+            border-bottom: 2px solid black;
+        }
+
+        .header img {
+            width: 150px;
+        }
+
+        /* Main content box */
+        .content {
+            display: flex;
+            border: 2px solid black;
+            padding: 20px;
+            position: relative;
+        }
+
+        /* Left Sidebar with squares */
+        .left-sidebar {
+            width: 120px;
+            padding: 10px;
+            background-color: #eee;
+            border-right: 2px solid black;
+        }
+
+        .square {
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            margin: 10px auto;
+            background-color: #fff;
+        }
+
+        /* Main Content */
+        .main-content {
+            flex-grow: 1;
+            padding: 10px;
+            background-color: white;
+            border-right: 2px solid black;
+        }
+
+        .main-content h2 {
+            margin-top: 0;
+        }
+
+        .main-content img {
+            margin: 10px 0;
+            width: 80%;
+        }
+
+        /* Right Sidebar */
+        .right-sidebar {
+            width: 120px;
+            padding: 10px;
+            background-color: #eee;
+        }
+
+        .right-sidebar img {
+            width: 100px;
+            margin: 10px 0;
+        }
+
+        /* Footer */
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-top: 2px solid black;
+            background-color: white;
+        }
+
+        .footer div {
+            display: flex;
+            align-items: center;
+        }
+
+        .footer img {
+            width: 50px;
+            margin-right: 10px;
+        }
+
+        .footer .table-of-contents {
+            border-left: 2px solid black;
+            padding-left: 10px;
+            font-size: 14px;
+            flex-grow: 1;
+            text-align: left;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with Target logo -->
+    <div class="container">
+        <div class="header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Target_logo.svg" alt="Target Logo">
+        </div>
+
+        <!-- Content Area -->
+        <div class="content">
+            <!-- Left Sidebar with 3 Squares -->
+            <div class="left-sidebar">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="main-content">
+                <h2>The Washington Monument Restoration</h2>
+                <hr>
+                <h3>School Fundraising Made Simple.<br>With your Target Guest Card.</h3>
+                <img src="https://via.placeholder.com/400x150?text=Target+Guest+Card" alt="Target Guest Card">
+                <hr>
+                <p><strong>Take charge of education!</strong></p>
+            </div>
+
+            <!-- Right Sidebar -->
+            <div class="right-sidebar">
+                <img src="https://via.placeholder.com/100x100?text=Champions" alt="Champions Logo">
+                <img src="https://via.placeholder.com/100x100?text=Where's+Target?" alt="Where's Target?">
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Target_logo.svg" alt="Target Logo">
+                <img src="https://via.placeholder.com/50x50?text=Hudson's" alt="Hudson's Logo">
+            </div>
+            <div class="table-of-contents">
+                TABLE OF CONTENTS
+            </div>
+        </div>
+    </div>
+</body>
+</html>
